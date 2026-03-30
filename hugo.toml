@@ -1,0 +1,40 @@
+baseURL = 'https://hamdannawaz582.github.io/'
+locale = 'en-us'
+title = "Hamdan's Dev Slog"
+theme = "terminal"
+baseurl = "/"
+pagination.pagerSize = 5
+
+[markup.highlight]
+    noClasses = false
+
+[params]
+    author = "Hamdan Nawaz"
+
+    contentTypeName = "posts"
+
+    centerTheme = true
+    menuMore = "Show more"
+    readMore = "Read more"
+    [params.logo]
+        logoText = "Hamdan's Dev Slog"
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    
+    [[menu.main]]
+        name = "About"
+        url = "/about"
+        weight = 2
+    
+    [[menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
